@@ -1,0 +1,50 @@
+* {margin: 0px;
+    text-align: justify;
+}
+body {
+    background-color: #84E1AD;
+}
+header {
+    display: block;
+    background-image: linear-gradient(to bottom,#38CA79,#1A5C38 );
+    height: 205px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 1px 1px 4px 0px black;
+}
+header > h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header > p {
+    text-align: left;
+    color: white;
+    text-align: center;
+    width: 380px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+main {
+    height: 1870px;
+    width: 800px;
+    background-color: white;
+    margin-top:2px ;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+main > h1 {
+    margin: 0px 0px 0px 10px;
+    text-align: left;
+}
+
+

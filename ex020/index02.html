@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        h1 {
+            padding:10px;
+        }
+
+        body {
+            background-color: darkslategray;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            margin: 10px;
+            background-color: white;
+            height: 150px;
+
+        }
+        nav {
+            background-color: gray;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 3px 1px black;
+        }
+        nav > a {
+            margin-right: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        nav >a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        main {
+            border-radius:3px 3px 5px 5px; 
+            margin: 10px;
+            height: 400px;
+            background-color: white;
+        }
+        article {
+        
+            background-color: gray;
+            margin: 10px 10px 10px 10px;
+            padding: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 3px;
+            font-size: 1em;
+            text-align: center;
+            font-weight: 100;
+
+        }
+        footer > p {
+            margin: 0px;
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos"> 
+            
+                <h2>Assuntos dos países</h2>
+                brasil
+                <br>
+                espanha
+                <br>
+                alemanha
+                <br>
+                belgica  
+        </section>
+        
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos minima quo nisi ipsa eveniet, aut atque ut repellendus eaque id magnam! Tempora nobis et ullam ut pariatur molestiae hic.</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Nícolas</p>
+
+    </footer>
+</body>
+</html>
