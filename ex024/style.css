@@ -54,11 +54,12 @@ section p {
     padding-bottom: 5vh;
 
 }
-.fundo {
+p.fundo {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 0, 0, 0.445);
     padding: 10px;
     box-shadow: 1px 1px 7px 0px black;
+    color: white;
 }
 section.img01 {
     background-color: blue;
