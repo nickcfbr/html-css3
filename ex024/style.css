@@ -23,6 +23,7 @@ header h1 {
     padding-bottom: 5px;
     font-family: var(--font01);
     font-size: 10vw;
+    font-variant: small-caps;
 }
 header p {
     padding-bottom: 50px;
