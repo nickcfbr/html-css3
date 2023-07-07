@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Nome completo" autocomplete="cc-name">
+        </p>
+        <p>
+            <label for="Media"> Média:</label>
+            <input type="number" name="Media" id="Media" min="0" max="10" step="0.1" placeholder="0 a 10" autocomplete="off">
+        </p>
+        <p>
+            <label for="Data">Data da prova:</label>
+            <input type="date" name="Data" id="Data" value="2023-07-07">
+        </p>
+        <p>
+            <label for="Horario">Horario da prova:</label>
+            <input type="time" name="Horario" id="Horario">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
