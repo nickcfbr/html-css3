@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
