@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media query</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style1.css"
+    media="screen and (min-width: 768px)">
 </head>
-<body onresize="mudouTamanho()">
+<body onresize="taManho()">
     <header>   
         <h1>Meu site</h1>
-        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+        <span class="material-icons" id="burguer" onclick="cliCk()">menu</span>
         <menu id="itens">
             <ul>
                 <li><a href="#">Opção1</a></li>
@@ -38,18 +38,19 @@
         </article>
     </main>
     <script>
-        function clickMenu(){
+        function cliCk() {
             if (itens.style.display == 'block')
-            {itens.style.display = 'none'}
+            { itens.style.display = 'none'}
             else { itens.style.display = 'block'}
-    }
-    function mudouTamanho() {
-        if (window.innerWidth >= 768) {
-            itens.style.display = 'block'
-        } else {
-            itens.style.display = 'none'
         }
-    }
+        function taManho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
     </script>
 </body>
 </html>

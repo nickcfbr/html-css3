@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+header span#burguer {
+    display: none;
+}
+header menu {
+    display: block;
+}
+header li {
+    display: inline-block;
+    margin-right: 10px ;
+}
