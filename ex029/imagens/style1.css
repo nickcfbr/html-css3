@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main {
+        background-image: url(pexels-engin-akyurt-2092075.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section#loguin {
+        width: 70vw;
+        
+    }
+    div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+
+    }
+    div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        background-color: gray;
+        background-image: none;
+        
+    }
+    section#loguin {
+        width: 90vw;
+        
+    }
+    div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+
+    }
+    div#formulario {
+        float: right;
+        width: 50%;
+    }
+    
+}
