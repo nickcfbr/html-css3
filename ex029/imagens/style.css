@@ -6,6 +6,10 @@
     margin: 0px;
     box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
 body {
     background-color: blueviolet;
     width: 100vw;
