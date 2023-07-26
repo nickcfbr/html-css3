@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style1.css">
 </head>
@@ -16,8 +18,19 @@
             <div id="formulario">
                 <h1>Loguin</h1>
                 <p> Bem Vindo(a). Faça loguin para continuar o processo.</p>
-                <form action="" method="get">
-
+                <form action="" method="get" autocomplete="on">
+                    <div id="campo">
+                        <span class="material-icons">login</span>
+                        <input type="email" name="email" id="iemail" autocomplete="email" placeholder="Seu e-mail:">
+                        <label for="iemail">Loguin</label>
+                    </div>
+                    <div id="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="Senha" id="isenha" autocomplete="current-password" placeholder="Sua Senha:">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Enviar">
+                    <Button>Esqueci minha senha</Button>
                 </form>
             </div>
         </section>
